@@ -1,0 +1,75 @@
+
+
+/* タブエリアのdivへの適用 */
+#smallArea {
+    /* 基本的なサイズの設定 */
+    background-color: #bbedce;
+    width: 80px;
+    height: 26px;
+    padding-top: 4px;
+   
+    /* borderに関する設定 */
+    border: 1px solid; /* 線の太さと可視化 */
+    border-bottom: transparent; /* 下辺を透明に */
+    border-top-left-radius: 8px; /* 左上を角丸に */
+    border-top-right-radius: 8px; /* 右上を角丸に */
+   
+    /* メイン表示エリアの線の太さだけ下にずらす */
+    margin-bottom: -1px;
+   
+    /* その他の設定 */
+    position: relative;
+    text-align: center;
+  }
+  
+  /* メイン表示エリアのdivへの適用 */
+  #largeArea {
+    /* 基本的なサイズの設定 */
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    padding: 20px;
+   
+    /* 枠線を太さ1pxで表示 */
+    border: 1px solid;
+  }
+  
+  /* コンテンツを見やすく表示 */
+  .disp-area {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .rensyu-area{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .kadomaru{
+      width: 30%;
+      font-size: 20px;
+      color:black;
+      text-align: center;
+      display: block;
+      padding: 10px 0 10px;
+      background: #6bcbf6;
+      border-radius: 20px;
+      margin-top: 50px;
+      margin-left: 20px;
+      position: relative;
+      left: 40px;
+  }
+  .shadow{
+      width: 30%;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      display: block;
+      padding: 10px 0 10px;
+      background: #6bcbf6;
+      border-radius: 20px;
+      box-shadow: 20px 20px #1a6ea0;
+      margin-top: 50px;
+      margin-left: 20px;
+      position: relative;
+      left: 40px;
+  }
+ 
